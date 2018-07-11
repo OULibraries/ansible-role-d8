@@ -1,0 +1,11 @@
+---
+# tasks file for OULibraries.d8
+
+- include: yum.yml
+  tags: d8_yum
+
+- include: drush.yml
+  tags: d8_drush
+
+- include: nginx.yml
+  tags: d8_nginx
